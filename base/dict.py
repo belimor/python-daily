@@ -29,3 +29,8 @@ for value in data.values():
 
 for key,value in data.items():
     print(f"{key}: {value}")
+
+print("name" in my_dict)  # Output: True
+print("city" in my_dict)  # Output: False
+
+
