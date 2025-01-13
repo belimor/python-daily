@@ -65,4 +65,6 @@ print(pow(2,3))
 print(math.floor(y))
 print(math.ceil(y))
 
-
+# The function pow(x, y, z) computes x^y mod z, which means it calculates the result of x raised to the power of y, then takes the remainder when divided by z.
+print(pow(3,2,5))
+print(9/5)
