@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Concept: Repeatedly selects the smallest element and places it at the beginning.
+
 def selection_sort(arr):
     print(arr)
     print("= = = = = = = =")
