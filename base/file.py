@@ -37,12 +37,21 @@ else:
 
 
 # Deleting a File
-
 if os.path.exists("example.txt"):
     os.remove("example.txt")
     print("File removed")
 else:
     print("File not found")
+
+# Handling Exceptions in File Operations
+try:
+    with open("example.txt","r") as file:
+        content = read.file()
+except FileNotFoundError:
+    print("File not found")
+except IOError:
+    print("Cant read th file")
+
 
 
 
