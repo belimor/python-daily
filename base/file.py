@@ -52,7 +52,19 @@ except FileNotFoundError:
 except IOError:
     print("Cant read th file")
 
+# The pathlib module offers a modern approach:
+from pathlib import Path
 
+# Create a file and write
+path = Path("example.txt")
+path.write_text("Hello from pathlib!")
+
+# Read a file
+print(path.read_text())
+
+if path.exists():
+    path.unlink()
+    print("File removed")
 
 
 
