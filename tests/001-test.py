@@ -1,10 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 #
 # Complete the 'numCells' function below.
@@ -12,7 +7,6 @@ import sys
 #
 
 def numCells(grid):
-    # Write your code here
     mg = grid
     count = 0
     for i in range(len(mg)):
@@ -24,8 +18,6 @@ def numCells(grid):
             if i == (len(mg)-1) and j == (len(mg[i])-1):
                 if mg[i][j] > mg[i][j-1] and mg[i][j] > mg[i-1][j-1] and mg[i][j] > mg[i-1][j]:
                     count += 1
-
-
     print(mg)
     return count
 
