@@ -68,3 +68,14 @@ print(math.ceil(y))
 # The function pow(x, y, z) computes x^y mod z, which means it calculates the result of x raised to the power of y, then takes the remainder when divided by z.
 print(pow(3,2,5))
 print(9/5)
+
+# round
+num = 3.14159265359
+limited_num = round(num, 2)
+print(limited_num)
+
+# formatted number
+num = 3.14159265359
+formatted_num = f"{num:.2f}"  # Format to 2 decimal places
+print(formatted_num)  # Output: 3.14 (as a string)
+
