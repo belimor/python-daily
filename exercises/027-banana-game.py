@@ -18,6 +18,7 @@
 # Kevin's vowel beginning word = ANA
 # Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points.
 
+import time
 import re
 
 def minion_game(string):
@@ -53,8 +54,16 @@ def minion_game(string):
 
 if __name__ == '__main__':
     s = input()
-    minion_game(s)
 
+    start_time = time.time()
+    result = sum(range(1_000_000))
+
+    minion_game(s)
+    
+    end_time = time.time()
+    # Calculate the elapsed time
+    elapsed_time = end_time - start_time
+    print(f"Execution time: {elapsed_time:.6f} seconds")
 
 
 
