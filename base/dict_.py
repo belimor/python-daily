@@ -3,7 +3,7 @@
 # In Python, a dictionary is a mutable, unordered collection of key-value pairs. 
 # Each key is unique, and the values can be of any data type.
 
-# Create e,pty dictionary
+# Create empty dictionary
 captaines = {}
 cap = dict()
 
