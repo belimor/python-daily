@@ -3,8 +3,11 @@
 HackerRank: 
 [https://www.hackerrank.com/dashboard](https://www.hackerrank.com/dashboard)
 
-AI Day 2025
+AI Day 2025:
 [https://www.hackerrank.com/ai-day?utm_source=hrc&utm_medium=%2Fdashboard&utm_campaign=top_banner](https://www.hackerrank.com/ai-day?utm_source=hrc&utm_medium=%2Fdashboard&utm_campaign=top_banner)
+
+Daily Coding Problem:
+[https://www.dailycodingproblem.com/](https://www.dailycodingproblem.com/])
 
 Python-programming-exercises: 
 [https://github.com/zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises)
