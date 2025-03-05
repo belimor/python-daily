@@ -20,3 +20,6 @@ Testdome Challenge:
 
 RealPython:
 [https://realpython.com/](https://realpython.com/)
+
+OpenAI Python:
+[https://github.com/openai/openai-python](https://github.com/openai/openai-python)
