@@ -23,3 +23,6 @@ RealPython:
 
 OpenAI Python:
 [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+
+## Music
+[Psychedelic Downtempo](https://music.youtube.com/playlist?list=PLhwRumKDka6-CmaWf3vY6q3baTZ86zWIN)
